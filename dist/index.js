@@ -31859,6 +31859,8 @@ async function run() {
         core.setFailed(error.message);
     }
 }
+
+run()
 module.exports = __webpack_exports__;
 /******/ })()
 ;

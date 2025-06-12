@@ -2,7 +2,7 @@ name: "labeler"
 description: "A GitHub Action to label pull requests based on their content."
 
 inputs:
-  github-token:
+  github_token:
     description: "GitHub token to authenticate the action."
     required: true
 

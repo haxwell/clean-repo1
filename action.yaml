@@ -1,0 +1,11 @@
+name: "labeler"
+description: "A GitHub Action to label pull requests based on their content."
+
+inputs:
+  github-token:
+    description: "GitHub token to authenticate the action."
+    required: true
+
+runs:
+  using: "node16"
+  main: "index.js"

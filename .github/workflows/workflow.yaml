@@ -1,0 +1,12 @@
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  labeler:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run labeler
+        uses: ./
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
